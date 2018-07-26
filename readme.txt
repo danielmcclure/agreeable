@@ -1,8 +1,8 @@
-=== Agreeable ===
-Contributors: kraftpress, buildcreate
+=== Agreeable2 ===
+Contributors: danielmcclure, kraftpress, buildcreate
 Tags: agree,terms,conditions,require,terms,login,log in,admin,login page,admin,buddypress,page,policy,privacy,bbpress,theme my login,signup,register,widgets,comment terms,comments,multisite,woocommerce
 Requires at least: 3.5 
-Tested up to: 4.2
+Tested up to: 4.9.7
 Stable tag: trunk
 License:GPLv2 or later
 Add an "Agree to terms" check box on login, registration, or comment forms.  Works with BuddyPress, bbPress and MultiSite.
@@ -15,10 +15,6 @@ Add an "agree to terms" check box to your login, registration, or comment forms,
 * Terms open in a responsive lightbox or new tab
 * Tested with WP, BuddyPress, and bbPress login widgets
 * Customizable text and error message
-
-= Extensions =
-* Login Records - Allows you to track user agreement by IP and username each time they log in. Learn more and purchase at: http://kraftpress.it/downloads/agreeable-records/
-* WooCommerce - Integrates Agreeable's terms & conditions fields into Woocommerce login, registration, and checkout. Learn more and purchase at: http://kraftpress.it/downloads/agreeable-woocommerce/
 
 = Translations =
 * Spanish (Andrew Kurtis, webhostinghub.com)
@@ -36,6 +32,9 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 
 == Changelog ==
+
+= 2.0 =
+* Forked from [Agreeable](https://wordpress.org/plugins/agreeable/)
 
 = 1.4 =
 * Updated comment tracking, misc bug fixes
