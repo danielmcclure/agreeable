@@ -8,12 +8,6 @@ Author: danielmcclure
 Author URI: https://github.com/danielmcclure/
 */
 
-
-//==================================
-//! TODO-
-//! Cleanup functions, make it smarter, faster, better.
-//==================================
-
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
