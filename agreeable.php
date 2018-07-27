@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Agreeable
-Plugin URI: http://wordpress.org/extend/plugins/agreeable
+Plugin Name: Agreeable2
+Plugin URI: https://github.com/danielmcclure/agreeable/
 Description: Add a required "Agree to terms" checkbox to login and/or register forms.
-Version: 1.4
-Author: kraftpress
-Author URI: http://kraftpress.it
+Version: 2.0
+Author: danielmcclure
+Author URI: https://github.com/danielmcclure/
 */
 
 
@@ -419,12 +419,6 @@ class Agreeable {
 
 	function agoptions() {
 		include_once('includes/settings.php');
-	}
-
-	/* Plugin cross promotion area */
-
-	function cross_promotions($plugin) {
-		include('kp_cross_promote.php');
 	}
 
 	function is_login_page() {
