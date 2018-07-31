@@ -39,7 +39,7 @@ class Agreeable {
 		add_action('pre_comment_on_post', array($this, 'ag_validate_comment'), 10, 2);
 
 		/* Output Hooks */
-		add_filter('login_form', array($this, 'ag_login_terms_accept') );
+		add_filter('login_form', array($this, 'ag_login_terms_accept'), 99 );
 		add_filter('register_form', array($this, 'ag_register_terms_accept'));
 		add_filter('comment_form_after_fields', array($this, 'ag_comment_terms_accept'));
 		add_filter('comment_form_logged_in_after', array($this, 'ag_comment_terms_accept'));
